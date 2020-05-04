@@ -22,7 +22,7 @@ func Encode(txt string) []string {
 		}
 		ct = -1
 		//不是中文的字符只取英文字母和数字，其他一律转化为空格
-		if (c >= '0' && c <= 9) || (c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z') {
+		if (c >= '0' && c <= '9') || (c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z') {
 			inits = append(inits, []uint8{uint8(c)})
 		} else {
 			inits = append(inits, []uint8{' '})
