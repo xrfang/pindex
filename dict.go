@@ -3,11 +3,11 @@ package pindex
 var hanzi = make(map[rune][]uint8)
 
 func init() {
-	hanzi['吖'] = []uint8{'A', 'Y'}
+	hanzi['吖'] = []uint8{'Y', 'A'}
 	hanzi['腌'] = []uint8{'A', 'Y'}
 	hanzi['锕'] = []uint8{'A'}
 	hanzi['阿'] = []uint8{'A', 'E'}
-	hanzi['嗄'] = []uint8{'A', 'S'}
+	hanzi['嗄'] = []uint8{'S', 'A'}
 	hanzi['啊'] = []uint8{'A'}
 	hanzi['哀'] = []uint8{'A'}
 	hanzi['哎'] = []uint8{'A'}
@@ -172,7 +172,7 @@ func init() {
 	hanzi['碑'] = []uint8{'B'}
 	hanzi['萆'] = []uint8{'B'}
 	hanzi['裨'] = []uint8{'B', 'P'}
-	hanzi['陂'] = []uint8{'B', 'P'}
+	hanzi['陂'] = []uint8{'P', 'B'}
 	hanzi['鹎'] = []uint8{'B'}
 	hanzi['北'] = []uint8{'B'}
 	hanzi['倍'] = []uint8{'B'}
@@ -246,7 +246,7 @@ func init() {
 	hanzi['蓖'] = []uint8{'B'}
 	hanzi['蔽'] = []uint8{'B'}
 	hanzi['襞'] = []uint8{'B'}
-	hanzi['辟'] = []uint8{'B', 'P'}
+	hanzi['辟'] = []uint8{'P', 'B'}
 	hanzi['避'] = []uint8{'B'}
 	hanzi['铋'] = []uint8{'B'}
 	hanzi['闭'] = []uint8{'B'}
@@ -287,7 +287,7 @@ func init() {
 	hanzi['镳'] = []uint8{'B'}
 	hanzi['飑'] = []uint8{'B'}
 	hanzi['飙'] = []uint8{'B'}
-	hanzi['骠'] = []uint8{'B', 'P'}
+	hanzi['骠'] = []uint8{'P', 'B'}
 	hanzi['髟'] = []uint8{'B', 'S'}
 	hanzi['婊'] = []uint8{'B'}
 	hanzi['表'] = []uint8{'B'}
@@ -305,7 +305,7 @@ func init() {
 	hanzi['槟'] = []uint8{'B'}
 	hanzi['滨'] = []uint8{'B'}
 	hanzi['濒'] = []uint8{'B'}
-	hanzi['玢'] = []uint8{'B', 'F'}
+	hanzi['玢'] = []uint8{'F', 'B'}
 	hanzi['缤'] = []uint8{'B'}
 	hanzi['豳'] = []uint8{'B'}
 	hanzi['镔'] = []uint8{'B'}
@@ -366,7 +366,7 @@ func init() {
 	hanzi['哺'] = []uint8{'B'}
 	hanzi['捕'] = []uint8{'B'}
 	hanzi['补'] = []uint8{'B'}
-	hanzi['埔'] = []uint8{'B', 'P'}
+	hanzi['埔'] = []uint8{'P', 'B'}
 	hanzi['埠'] = []uint8{'B'}
 	hanzi['布'] = []uint8{'B'}
 	hanzi['怖'] = []uint8{'B'}
@@ -555,7 +555,7 @@ func init() {
 	hanzi['柽'] = []uint8{'C'}
 	hanzi['瞠'] = []uint8{'C'}
 	hanzi['蛏'] = []uint8{'C'}
-	hanzi['铛'] = []uint8{'C', 'D'}
+	hanzi['铛'] = []uint8{'D', 'C'}
 	hanzi['丞'] = []uint8{'C'}
 	hanzi['乘'] = []uint8{'C', 'S'}
 	hanzi['呈'] = []uint8{'C'}
@@ -570,7 +570,7 @@ func init() {
 	hanzi['橙'] = []uint8{'C'}
 	hanzi['浈'] = []uint8{'Z'}
 	hanzi['澄'] = []uint8{'C', 'D'}
-	hanzi['盛'] = []uint8{'C', 'S'}
+	hanzi['盛'] = []uint8{'S', 'C'}
 	hanzi['程'] = []uint8{'C'}
 	hanzi['裎'] = []uint8{'C'}
 	hanzi['诚'] = []uint8{'C'}
@@ -699,7 +699,7 @@ func init() {
 	hanzi['钏'] = []uint8{'C'}
 	hanzi['疮'] = []uint8{'C'}
 	hanzi['窗'] = []uint8{'C'}
-	hanzi['幢'] = []uint8{'C', 'Z'}
+	hanzi['幢'] = []uint8{'Z', 'C'}
 	hanzi['床'] = []uint8{'C'}
 	hanzi['闯'] = []uint8{'C'}
 	hanzi['创'] = []uint8{'C'}
@@ -906,7 +906,7 @@ func init() {
 	hanzi['蹈'] = []uint8{'D'}
 	hanzi['到'] = []uint8{'D'}
 	hanzi['悼'] = []uint8{'D'}
-	hanzi['焘'] = []uint8{'D', 'T'}
+	hanzi['焘'] = []uint8{'T', 'D'}
 	hanzi['盗'] = []uint8{'D'}
 	hanzi['稻'] = []uint8{'D'}
 	hanzi['纛'] = []uint8{'D'}
@@ -1117,7 +1117,7 @@ func init() {
 	hanzi['墩'] = []uint8{'D'}
 	hanzi['敦'] = []uint8{'D'}
 	hanzi['礅'] = []uint8{'D'}
-	hanzi['蹲'] = []uint8{'C', 'D'}
+	hanzi['蹲'] = []uint8{'D', 'C'}
 	hanzi['盹'] = []uint8{'D'}
 	hanzi['趸'] = []uint8{'D'}
 	hanzi['囤'] = []uint8{'D', 'T'}
@@ -4315,6 +4315,7 @@ func init() {
 	hanzi['弱'] = []uint8{'R'}
 	hanzi['箬'] = []uint8{'R'}
 	hanzi['若'] = []uint8{'R'}
+	hanzi['镕'] = []uint8{'R'}
 	hanzi['仨'] = []uint8{'S'}
 	hanzi['撒'] = []uint8{'S'}
 	hanzi['洒'] = []uint8{'S'}
@@ -4506,7 +4507,7 @@ func init() {
 	hanzi['拾'] = []uint8{'S'}
 	hanzi['时'] = []uint8{'S'}
 	hanzi['炻'] = []uint8{'S'}
-	hanzi['石'] = []uint8{'D', 'S'}
+	hanzi['石'] = []uint8{'S', 'D'}
 	hanzi['莳'] = []uint8{'S'}
 	hanzi['蚀'] = []uint8{'S'}
 	hanzi['识'] = []uint8{'S', 'Z'}
@@ -4548,7 +4549,7 @@ func init() {
 	hanzi['谥'] = []uint8{'S'}
 	hanzi['贳'] = []uint8{'S'}
 	hanzi['轼'] = []uint8{'S'}
-	hanzi['适'] = []uint8{'K', 'S'}
+	hanzi['适'] = []uint8{'S', 'K'}
 	hanzi['逝'] = []uint8{'S'}
 	hanzi['释'] = []uint8{'S'}
 	hanzi['铈'] = []uint8{'S'}
@@ -4614,7 +4615,8 @@ func init() {
 	hanzi['唰'] = []uint8{'S'}
 	hanzi['耍'] = []uint8{'S'}
 	hanzi['摔'] = []uint8{'S'}
-	hanzi['衰'] = []uint8{'C', 'S'}
+	hanzi['甦'] = []uint8{'S'}
+	hanzi['衰'] = []uint8{'S', 'C'}
 	hanzi['甩'] = []uint8{'S'}
 	hanzi['帅'] = []uint8{'S'}
 	hanzi['蟀'] = []uint8{'S'}
@@ -4824,7 +4826,7 @@ func init() {
 	hanzi['炭'] = []uint8{'T'}
 	hanzi['碳'] = []uint8{'T'}
 	hanzi['赕'] = []uint8{'D'}
-	hanzi['汤'] = []uint8{'S', 'T'}
+	hanzi['汤'] = []uint8{'T', 'S'}
 	hanzi['羰'] = []uint8{'T'}
 	hanzi['趟'] = []uint8{'T'}
 	hanzi['铴'] = []uint8{'T'}
@@ -4843,7 +4845,7 @@ func init() {
 	hanzi['螳'] = []uint8{'T'}
 	hanzi['醣'] = []uint8{'T'}
 	hanzi['饧'] = []uint8{'T'}
-	hanzi['倘'] = []uint8{'C', 'T'}
+	hanzi['倘'] = []uint8{'T', 'C'}
 	hanzi['傥'] = []uint8{'T'}
 	hanzi['帑'] = []uint8{'T'}
 	hanzi['淌'] = []uint8{'T'}
@@ -5063,7 +5065,7 @@ func init() {
 	hanzi['箢'] = []uint8{'Y'}
 	hanzi['绾'] = []uint8{'W'}
 	hanzi['菀'] = []uint8{'W', 'Y'}
-	hanzi['万'] = []uint8{'M', 'W'}
+	hanzi['万'] = []uint8{'W', 'M'}
 	hanzi['腕'] = []uint8{'W'}
 	hanzi['尢'] = []uint8{'W', 'Y'}
 	hanzi['汪'] = []uint8{'W'}
@@ -5285,7 +5287,7 @@ func init() {
 	hanzi['葸'] = []uint8{'X'}
 	hanzi['蓰'] = []uint8{'X'}
 	hanzi['铣'] = []uint8{'X'}
-	hanzi['戏'] = []uint8{'H', 'X'}
+	hanzi['戏'] = []uint8{'X', 'H'}
 	hanzi['禊'] = []uint8{'X'}
 	hanzi['系'] = []uint8{'J', 'X'}
 	hanzi['细'] = []uint8{'X'}
@@ -5296,7 +5298,7 @@ func init() {
 	hanzi['饩'] = []uint8{'X'}
 	hanzi['岈'] = []uint8{'Y'}
 	hanzi['瞎'] = []uint8{'X'}
-	hanzi['虾'] = []uint8{'H', 'X'}
+	hanzi['虾'] = []uint8{'X', 'H'}
 	hanzi['侠'] = []uint8{'X'}
 	hanzi['匣'] = []uint8{'X'}
 	hanzi['峡'] = []uint8{'X'}
@@ -5311,7 +5313,7 @@ func init() {
 	hanzi['霞'] = []uint8{'X'}
 	hanzi['黠'] = []uint8{'X'}
 	hanzi['下'] = []uint8{'X'}
-	hanzi['吓'] = []uint8{'H', 'X'}
+	hanzi['吓'] = []uint8{'X', 'H'}
 	hanzi['夏'] = []uint8{'X'}
 	hanzi['罅'] = []uint8{'X'}
 	hanzi['仙'] = []uint8{'X'}
@@ -5389,7 +5391,7 @@ func init() {
 	hanzi['削'] = []uint8{'X'}
 	hanzi['哓'] = []uint8{'X'}
 	hanzi['哮'] = []uint8{'X'}
-	hanzi['嚣'] = []uint8{'A', 'X'}
+	hanzi['嚣'] = []uint8{'X', 'A'}
 	hanzi['宵'] = []uint8{'X'}
 	hanzi['枭'] = []uint8{'X'}
 	hanzi['枵'] = []uint8{'X'}
@@ -5411,7 +5413,7 @@ func init() {
 	hanzi['啸'] = []uint8{'X'}
 	hanzi['孝'] = []uint8{'X'}
 	hanzi['效'] = []uint8{'X'}
-	hanzi['校'] = []uint8{'J', 'X'}
+	hanzi['校'] = []uint8{'X', 'J'}
 	hanzi['笑'] = []uint8{'X'}
 	hanzi['肖'] = []uint8{'X'}
 	hanzi['些'] = []uint8{'X'}
@@ -5444,7 +5446,7 @@ func init() {
 	hanzi['渫'] = []uint8{'X'}
 	hanzi['瀣'] = []uint8{'X'}
 	hanzi['燮'] = []uint8{'X'}
-	hanzi['獬'] = []uint8{'G', 'X'}
+	hanzi['獬'] = []uint8{'X', 'G'}
 	hanzi['绁'] = []uint8{'X'}
 	hanzi['薤'] = []uint8{'X'}
 	hanzi['蟹'] = []uint8{'X'}
@@ -5510,7 +5512,7 @@ func init() {
 	hanzi['袖'] = []uint8{'X'}
 	hanzi['锈'] = []uint8{'X'}
 	hanzi['吁'] = []uint8{'X', 'Y'}
-	hanzi['嘘'] = []uint8{'S', 'X'}
+	hanzi['嘘'] = []uint8{'X', 'S'}
 	hanzi['墟'] = []uint8{'X'}
 	hanzi['盱'] = []uint8{'X'}
 	hanzi['胥'] = []uint8{'X'}
@@ -5667,7 +5669,7 @@ func init() {
 	hanzi['衍'] = []uint8{'Y'}
 	hanzi['郾'] = []uint8{'Y'}
 	hanzi['魇'] = []uint8{'Y'}
-	hanzi['鼹'] = []uint8{'X', 'Y'}
+	hanzi['鼹'] = []uint8{'Y', 'X'}
 	hanzi['厌'] = []uint8{'Y'}
 	hanzi['唁'] = []uint8{'Y'}
 	hanzi['堰'] = []uint8{'Y'}
@@ -5755,7 +5757,7 @@ func init() {
 	hanzi['冶'] = []uint8{'Y'}
 	hanzi['野'] = []uint8{'Y'}
 	hanzi['业'] = []uint8{'Y'}
-	hanzi['叶'] = []uint8{'X', 'Y'}
+	hanzi['叶'] = []uint8{'Y', 'X'}
 	hanzi['夜'] = []uint8{'Y'}
 	hanzi['晔'] = []uint8{'Y'}
 	hanzi['曳'] = []uint8{'Y'}
@@ -5797,7 +5799,7 @@ func init() {
 	hanzi['诒'] = []uint8{'Y'}
 	hanzi['贻'] = []uint8{'Y'}
 	hanzi['迤'] = []uint8{'Y'}
-	hanzi['遗'] = []uint8{'W', 'Y'}
+	hanzi['遗'] = []uint8{'Y', 'W'}
 	hanzi['酏'] = []uint8{'Y'}
 	hanzi['颐'] = []uint8{'Y'}
 	hanzi['乙'] = []uint8{'Y'}
@@ -5821,7 +5823,7 @@ func init() {
 	hanzi['呓'] = []uint8{'Y'}
 	hanzi['埸'] = []uint8{'Y'}
 	hanzi['奕'] = []uint8{'Y'}
-	hanzi['屹'] = []uint8{'G', 'Y'}
+	hanzi['屹'] = []uint8{'Y', 'G'}
 	hanzi['峄'] = []uint8{'Y'}
 	hanzi['异'] = []uint8{'Y'}
 	hanzi['弈'] = []uint8{'Y'}
@@ -5839,7 +5841,7 @@ func init() {
 	hanzi['毅'] = []uint8{'Y'}
 	hanzi['溢'] = []uint8{'Y'}
 	hanzi['熠'] = []uint8{'Y'}
-	hanzi['疫'] = []uint8{'H', 'Y'}
+	hanzi['疫'] = []uint8{'Y', 'H'}
 	hanzi['瘗'] = []uint8{'Y'}
 	hanzi['癔'] = []uint8{'Y'}
 	hanzi['益'] = []uint8{'Y'}
@@ -5955,7 +5957,7 @@ func init() {
 	hanzi['恿'] = []uint8{'Y'}
 	hanzi['永'] = []uint8{'Y'}
 	hanzi['泳'] = []uint8{'Y'}
-	hanzi['涌'] = []uint8{'C', 'Y'}
+	hanzi['涌'] = []uint8{'Y', 'C'}
 	hanzi['甬'] = []uint8{'Y'}
 	hanzi['蛹'] = []uint8{'Y'}
 	hanzi['踊'] = []uint8{'Y'}
@@ -5998,7 +6000,7 @@ func init() {
 	hanzi['诱'] = []uint8{'Y'}
 	hanzi['釉'] = []uint8{'Y'}
 	hanzi['鼬'] = []uint8{'Y'}
-	hanzi['於'] = []uint8{'W', 'Y'}
+	hanzi['於'] = []uint8{'Y', 'W'}
 	hanzi['淤'] = []uint8{'Y'}
 	hanzi['瘀'] = []uint8{'Y'}
 	hanzi['纡'] = []uint8{'Y'}
@@ -6280,7 +6282,7 @@ func init() {
 	hanzi['涨'] = []uint8{'Z'}
 	hanzi['丈'] = []uint8{'Z'}
 	hanzi['仗'] = []uint8{'Z'}
-	hanzi['嶂'] = []uint8{'D', 'Z'}
+	hanzi['嶂'] = []uint8{'Z', 'D'}
 	hanzi['帐'] = []uint8{'Z'}
 	hanzi['幛'] = []uint8{'Z'}
 	hanzi['杖'] = []uint8{'Z'}
@@ -6296,7 +6298,7 @@ func init() {
 	hanzi['沼'] = []uint8{'Z'}
 	hanzi['爪'] = []uint8{'Z'}
 	hanzi['兆'] = []uint8{'Z'}
-	hanzi['召'] = []uint8{'S', 'Z'}
+	hanzi['召'] = []uint8{'Z', 'S'}
 	hanzi['棹'] = []uint8{'Z'}
 	hanzi['照'] = []uint8{'Z'}
 	hanzi['笊'] = []uint8{'Z'}
@@ -6307,7 +6309,7 @@ func init() {
 	hanzi['蜇'] = []uint8{'Z'}
 	hanzi['遮'] = []uint8{'Z'}
 	hanzi['哲'] = []uint8{'Z'}
-	hanzi['折'] = []uint8{'S', 'Z'}
+	hanzi['折'] = []uint8{'Z', 'S'}
 	hanzi['磔'] = []uint8{'Z'}
 	hanzi['蛰'] = []uint8{'Z'}
 	hanzi['谪'] = []uint8{'Z'}
@@ -6399,7 +6401,7 @@ func init() {
 	hanzi['摭'] = []uint8{'Z'}
 	hanzi['桎'] = []uint8{'Z'}
 	hanzi['植'] = []uint8{'Z'}
-	hanzi['殖'] = []uint8{'S', 'Z'}
+	hanzi['殖'] = []uint8{'Z', 'S'}
 	hanzi['直'] = []uint8{'Z'}
 	hanzi['絷'] = []uint8{'Z'}
 	hanzi['职'] = []uint8{'Z'}
@@ -6458,7 +6460,7 @@ func init() {
 	hanzi['钟'] = []uint8{'Z'}
 	hanzi['锺'] = []uint8{'Z'}
 	hanzi['冢'] = []uint8{'Z'}
-	hanzi['种'] = []uint8{'C', 'Z'}
+	hanzi['种'] = []uint8{'Z', 'C'}
 	hanzi['肿'] = []uint8{'Z'}
 	hanzi['踵'] = []uint8{'Z'}
 	hanzi['仲'] = []uint8{'Z'}
@@ -6467,7 +6469,7 @@ func init() {
 	hanzi['周'] = []uint8{'Z'}
 	hanzi['州'] = []uint8{'Z'}
 	hanzi['洲'] = []uint8{'Z'}
-	hanzi['粥'] = []uint8{'Y', 'Z'}
+	hanzi['粥'] = []uint8{'Z', 'Y'}
 	hanzi['舟'] = []uint8{'Z'}
 	hanzi['诌'] = []uint8{'Z'}
 	hanzi['妯'] = []uint8{'Z'}
@@ -6650,7 +6652,7 @@ func init() {
 	hanzi['罪'] = []uint8{'Z'}
 	hanzi['蕞'] = []uint8{'Z'}
 	hanzi['醉'] = []uint8{'Z'}
-	hanzi['尊'] = []uint8{'X', 'Z'}
+	hanzi['尊'] = []uint8{'Z', 'X'}
 	hanzi['樽'] = []uint8{'Z'}
 	hanzi['遵'] = []uint8{'Z'}
 	hanzi['鳟'] = []uint8{'Z'}
